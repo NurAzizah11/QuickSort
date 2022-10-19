@@ -52,6 +52,31 @@ namespace QuickSort
             if (low > high)
                 return;
 
+            //Partition the list into two parts:
+            //One containing elements less that or equel to pivot
+            //Outher conntainning elements greather than pivot
+
+            i = low + 1;
+            j = high;
+
+            pivot = arr[low];
+
+            while (i <= j)
+            {
+                //Search for an elements less than or equal to pivot
+
+                i++;
+                cmp_count++;
+
+            }
+        }
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+
+        }
+
         }
 
 
